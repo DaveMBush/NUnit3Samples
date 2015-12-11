@@ -44,9 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3. Getting Started\Class1.cs" />
+    <Compile Include="3. Getting Started\Class1WithConsoleWriteLine.cs" />
+    <Compile Include="4. Basic Testing\A.SetupAndTeardown.cs" />
+    <Compile Include="4. Basic Testing\C.Test Code\ArrangeActAssert.cs" />
+    <Compile Include="4. Basic Testing\C.Test Code\Calculator.cs" />
+    <Compile Include="4. Basic Testing\C.Test Code\GivenWhenThen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="4. Basic Testing\B.SetUpFixture.cs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
