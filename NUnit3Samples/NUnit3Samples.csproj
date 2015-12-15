@@ -52,6 +52,18 @@
     <Compile Include="4. Basic Testing\C.Test Code\GivenWhenThen.cs" />
     <Compile Include="5. Parameterized Tests\A. TestCase\Calculator.cs" />
     <Compile Include="5. Parameterized Tests\A. TestCase\GivenWeHaveACalculatorObject.cs" />
+    <Compile Include="5. Parameterized Tests\B. TestCaseSource\1. Arrays\GivenWeHaveACalculatorObject.cs" />
+    <Compile Include="5. Parameterized Tests\B. TestCaseSource\2. IEnumerableTestCaseData\GivenWeHaveACalculatorObject.cs" />
+    <Compile Include="5. Parameterized Tests\B. TestCaseSource\3. ExternalClass\ExternalTestClass.cs" />
+    <Compile Include="5. Parameterized Tests\B. TestCaseSource\3. ExternalClass\TestUsingExternalTestSource.cs" />
+    <Compile Include="5. Parameterized Tests\C. MethodValues\1. Sequential\ValuesSequential.cs" />
+    <Compile Include="5. Parameterized Tests\C. MethodValues\2. Combinatorial\ValuesCombinatorial.cs" />
+    <Compile Include="5. Parameterized Tests\C. MethodValues\3. Random\RandomTests.cs" />
+    <Compile Include="5. Parameterized Tests\C. MethodValues\4. Range\RangeTests.cs" />
+    <Compile Include="6. Managing Tests\A. ControllingOrder\OrderingTest.cs" />
+    <Compile Include="6. Managing Tests\B. GroupingTests\1. Categories\CategoryExample.cs" />
+    <Compile Include="6. Managing Tests\B. GroupingTests\2. PreventingTestFromRunning\ExplicitTestClass.cs" />
+    <Compile Include="6. Managing Tests\B. GroupingTests\2. PreventingTestFromRunning\ExplicitTestMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,9 +75,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="5. Parameterized Tests\B. TestCaseSource\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
