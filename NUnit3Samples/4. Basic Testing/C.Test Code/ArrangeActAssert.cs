@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace NUnit3Samples._4._Basic_Testing.C.Test_Code
 {
     [TestFixture]
-    class ArrangeActAssert
+    public class ArrangeActAssert
     {
         [Test]
         public void AddShouldReturnSumOfTwoNumbers()

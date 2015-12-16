@@ -4,7 +4,7 @@ namespace NUnit3Samples._6._Managing_Tests.B._GroupingTests._2._PreventingTestFr
 {
     [TestFixture]
     [Explicit]
-    class ExplicitTestClass
+    public class ExplicitTestClass
     {
         [Test]
         public void ExplicitTest()

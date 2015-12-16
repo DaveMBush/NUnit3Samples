@@ -64,6 +64,8 @@
     <Compile Include="6. Managing Tests\B. GroupingTests\1. Categories\CategoryExample.cs" />
     <Compile Include="6. Managing Tests\B. GroupingTests\2. PreventingTestFromRunning\ExplicitTestClass.cs" />
     <Compile Include="6. Managing Tests\B. GroupingTests\2. PreventingTestFromRunning\ExplicitTestMethod.cs" />
+    <Compile Include="7. Advanced\A. Timeout\TimeoutTest.cs" />
+    <Compile Include="7. Advanced\B. MaxTime\MaxtimeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
